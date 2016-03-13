@@ -12,7 +12,8 @@
             avl.Add(40);
             avl.Add(10);
             avl.Add(-1);
-            Console.WriteLine();
+            Console.WriteLine(avl.Count);
+            Console.WriteLine(avl.Contains(10));
         }
     }
 }
